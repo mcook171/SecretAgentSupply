@@ -48,9 +48,24 @@ menu a {
   padding: 0.75rem 0;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
+header .inner-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+main .inner-container {
+  padding-top: 9rem;
+}
 
 .inner-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 960px;
 }
@@ -58,6 +73,15 @@ menu a {
 .banner {
   background-color: black;
   width: 20rem;
+  align-self: flex-start;
+
+}
+
+.supporting {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+
 }
 
 .logo img {
@@ -81,8 +105,69 @@ menu a {
 
 }
 
+.productgrid {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.product h2 {
+  padding: 0.5rem 0;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.location, .hours {
+  width: 35%;
+}
+
+
+.location .title, .hours .title {
+  background-color: black;
+}
+
+.location h2, .hours h2 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.location-container h3 {
+  color: black;
+}
+
 #menu nav {
   width: 960px;
   display: flex;
   justify-content: space-between;
+}
+
+#pen img, #watch img {
+  height: 9rem;
+  padding: 2rem;
+}
+
+#glasses img {
+  padding: 4.4rem 0;
+  width: 9rem;
+}
+
+#glasses .supporting {
+
+  align-self: flex-end;
 }
