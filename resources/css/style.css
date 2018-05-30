@@ -11,16 +11,18 @@ header {
   width: 100%;
 }
 
-h1 {
+h1, h2, h3 {
   color: white;
 
 }
 
 main {
   display: flex;
-
-  height: 9rem;
+  justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height: 25rem;
+  background-size: cover;
+
 }
 
 menu, footer {
@@ -31,10 +33,21 @@ menu {
   display: flex;
   justify-content: center;
 }
+
+header h1 {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
 .inner-container {
   display: flex;
   align-items: center;
   width: 960px;
+}
+
+.banner {
+  background-color: black;
+  width: 20rem;
 }
 
 .logo img {
@@ -43,7 +56,17 @@ menu {
   padding-right: 1rem;
 }
 
-header h1 {
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
+.banner h2 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+
 }
