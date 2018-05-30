@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  font-family: Helvetica;
 }
 
 header {
@@ -12,20 +13,37 @@ header {
 
 h1 {
   color: white;
-  font-family: Helvetica;
+
 }
 
 main {
   display: flex;
+
   height: 9rem;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
 }
 
-menu, footer { 
+menu, footer {
   background-color: firebrick;
+}
+
+menu {
+  display: flex;
+  justify-content: center;
 }
 .inner-container {
   display: flex;
   align-items: center;
   width: 960px;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+header h1 {
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
 }
