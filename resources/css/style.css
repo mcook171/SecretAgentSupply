@@ -1,0 +1,27 @@
+html {
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+}
+
+main {
+  display: flex;
+  height: 9rem;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+}
+.inner-container {
+  display: flex;
+  align-items: center;
+  width: 960px;
+}
