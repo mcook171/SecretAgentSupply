@@ -30,7 +30,7 @@ main {
 
 }
 
-menu, footer {
+menu {
   background-color: firebrick;
 }
 
@@ -53,6 +53,14 @@ section {
   justify-content: center;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  background-color: black;
+}
+
 header .inner-container {
   display: flex;
   justify-content: flex-start;
@@ -61,6 +69,12 @@ header .inner-container {
 
 main .inner-container {
   padding-top: 9rem;
+}
+
+footer .inner-container {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid blue;
 }
 
 .inner-container {
@@ -82,6 +96,11 @@ main .inner-container {
   background-color: black;
   width: 100%;
 
+}
+
+.copyright {
+  text-align: left;
+  width: 960px;
 }
 
 .logo img {
