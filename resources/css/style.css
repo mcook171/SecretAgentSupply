@@ -20,6 +20,10 @@ main {
   height: 9rem;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
 }
+
+menu, footer { 
+  background-color: firebrick;
+}
 .inner-container {
   display: flex;
   align-items: center;
